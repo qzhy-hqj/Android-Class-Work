@@ -1,0 +1,26 @@
+package com.example.navhost
+import androidx.compose. foundation. Image
+import androidx. compose.foundation. layout.Column
+import androidx.compose.foundation. layout.fillMaxSize
+import androidx. compose.material3.Button
+import androidx.compose.material3.Text
+port androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
+import androidx.navigation.NavHostcontroller
+@Composable
+un NewsPage(navController: NavHostcontroller, Newslist: List<News>) {
+Cotumn t this: Columnscope
+for (i in 1s..≤3)4
+Text(text = NewsList[e].title)
+Text(text=“新闻标题”）
+Text(text =“新闻正文“）
+Button(onClick =1
+navcontroller.navigate( route: "index")
+}){ this: RowScope
+Text(text =“返回首页”）
+        }
+     }
+
+  }
+}

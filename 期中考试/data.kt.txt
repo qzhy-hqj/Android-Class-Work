@@ -1,0 +1,15 @@
+data class News{
+  val id:Int,
+  val title: Sting,
+  val content:Sting
+  val pubilsh:Sting
+  val date:Sting
+)
+
+object UserData{
+     var NewsList=mutableListof(
+           News(1, "titleA", "1" "华中科技大学出版社“，”2024-05-09），
+           News(1, "titleA", "1" "华中科技大学出版社“，”2024-05-09），
+           News(1, "titleA", "1" "华中科技大学出版社“，”2024-05-09），
+    ）
+}
